@@ -9,17 +9,13 @@ The optimised project can be found on https://github.com/richardtamunotonye/fron
 
 ### Getting started
 
-<<<<<<< HEAD
 The minified files can be seen inside the dist folder and the unminified files inside the app folder. I used gulp for minifcation it is include the gulpfile.js.
 
 * I moved the script tags to the bottom of the body tag, inlined the style css file and used web fonts for faster loading.
 * I loaded the javascript asynchronously for better page optimization and also minified napplicable files using gulp.
 
-||||||| merged common ancestors
-=======
 The minified files can be seen inside the dist folder and the unminified files inside the app folder. I used gulp for minifcation it is include the gulpfile.js.
 
->>>>>>> 82fbcb3a3a1c4a2ce8c6bed6261cd0dce2b731fa
 #### Part 1: Optimize PageSpeed Insights score for index.html
 
 Some useful tips to help you get started:
