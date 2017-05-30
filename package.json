@@ -1,0 +1,31 @@
+{
+  "name": "frontend-nanodegree-mobile-portfolio",
+  "version": "1.0.0",
+  "description": "Website Performance Optimization portfolio project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardtamunotonye/frontend-nanodegree-mobile-portfolio.git"
+  },
+  "keywords": [
+    "Git"
+  ],
+  "author": "Richard Tamunotonye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richardtamunotonye/frontend-nanodegree-mobile-portfolio/issues"
+  },
+  "homepage": "https://github.com/richardtamunotonye/frontend-nanodegree-mobile-portfolio#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.6",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}
