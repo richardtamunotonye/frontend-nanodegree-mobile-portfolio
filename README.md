@@ -9,12 +9,25 @@ The optimised project can be found on https://github.com/richardtamunotonye/fron
 
 ### Getting started
 
-The minified files can be seen inside the dist folder and the unminified files inside the app folder. I used gulp for minifcation it is include the gulpfile.js.
+#### Optimizations made to index.html
 
-* I moved the script tags to the bottom of the body tag, inlined the style css file and used web fonts for faster loading.
-* I loaded the javascript asynchronously for better page optimization and also minified napplicable files using gulp.
+* Added inline css for faster page load
+* Deferred loading of the stylesheets, the css references were put inside a noscript tag and loaded via script
+* The pizzeria.jpg duplicated, resized and renamed to pizzeria_thumb.jpg
+* Moved all scripts to the bottom of the </body? closing tag
+* Used gulp to compress images and minify .css, .js and .html files
+* Loaded perfmatters.js asynchronously.
 
-The minified files can be seen inside the dist folder and the unminified files inside the app folder. I used gulp for minifcation it is include the gulpfile.js.
+#### Optimizations made to views/js/main.js
+
+* Moved all the javascript files for the project same js folder including main.js
+* Moved bootstrap-grid.css and pizzaStyle.css from views/css folder to home css folder where css files for index.html were saved
+* Moved pizza.html to home dirrectory
+* Deferred loading of the stylesheets, the css references were put inside a noscript tag and loaded via script for index.html
+* Moved all scripts to the bottom of the </body? closing tag for index.html
+* Declare var elem outside the loop to prevent it being created each iteration
+* Declare movingPizzas outside the for loop to prevent a DOM call on each iteration
+* Calculate number of pizzas based on window size.
 
 #### Part 1: Optimize PageSpeed Insights score for index.html
 
